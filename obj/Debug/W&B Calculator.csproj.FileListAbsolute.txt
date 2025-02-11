@@ -1,0 +1,9 @@
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\bin\Debug\W&B Calculator.exe.config
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\bin\Debug\W&B Calculator.exe
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\bin\Debug\W&B Calculator.pdb
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W&B Calculator.csproj.AssemblyReference.cache
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.Properties.Resources.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W&B Calculator.csproj.GenerateResource.cache
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W&B Calculator.csproj.CoreCompileInputs.cache
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W&B Calculator.exe
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W&B Calculator.pdb
