@@ -7,3 +7,16 @@ C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W&B 
 C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W&B Calculator.csproj.CoreCompileInputs.cache
 C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W&B Calculator.exe
 C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W&B Calculator.pdb
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.AccelerationStopResults_172.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.AccelerationStopResults_182.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.AccelerationStopResults_Mustang.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.AccelerationStop_Cessna172.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.AccelerationStop_Cessna182.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.AccelerationStop_Mustang.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.Cessna172Calulations.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.Cessna182Calulations.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.CitationMustangCalulations.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.Form1.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.WithinEnvelope_Cessna172.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.WithinEnvelope_Cessna182.resources
+C:\Users\natal\OneDrive\Desktop\Weight and Balance\W&B Calculator\obj\Debug\W_B_Calculator.WithinEnvelope_CitationMustang.resources

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace W_B_Calculator
 {
-    public partial class Cessna172Calc : Form
+    public partial class Cessna172Calulations: Form
     {
-        public Cessna172Calc()
+        public Cessna172Calulations()
         {
             InitializeComponent();
+        }
+
+        private void Calculations182_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

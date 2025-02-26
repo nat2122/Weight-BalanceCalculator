@@ -42,6 +42,7 @@
             this.CitationMustang.Size = new System.Drawing.Size(147, 58);
             this.CitationMustang.TabIndex = 0;
             this.CitationMustang.UseVisualStyleBackColor = true;
+            this.CitationMustang.Click += new System.EventHandler(this.CitationMustang_Click);
             // 
             // Cessna182
             // 
@@ -51,6 +52,7 @@
             this.Cessna182.Size = new System.Drawing.Size(127, 58);
             this.Cessna182.TabIndex = 1;
             this.Cessna182.UseVisualStyleBackColor = true;
+            this.Cessna182.Click += new System.EventHandler(this.Cessna182_Click);
             // 
             // Cessna172
             // 
@@ -61,6 +63,7 @@
             this.Cessna172.Size = new System.Drawing.Size(133, 58);
             this.Cessna172.TabIndex = 2;
             this.Cessna172.UseVisualStyleBackColor = false;
+            this.Cessna172.Click += new System.EventHandler(this.Cessna172_Click);
             // 
             // Form1
             // 
