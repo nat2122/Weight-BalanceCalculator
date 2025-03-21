@@ -29,36 +29,36 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccelerationStop_Cessna172));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.enterTemperature = new System.Windows.Forms.TextBox();
+            this.enterWind = new System.Windows.Forms.TextBox();
+            this.enterAlt = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.viewResultCessna172 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // enterTemperature
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.textBox1.Location = new System.Drawing.Point(32, 134);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(209, 20);
-            this.textBox1.TabIndex = 1;
+            this.enterTemperature.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.enterTemperature.Location = new System.Drawing.Point(32, 134);
+            this.enterTemperature.Name = "enterTemperature";
+            this.enterTemperature.Size = new System.Drawing.Size(209, 20);
+            this.enterTemperature.TabIndex = 1;
             // 
-            // textBox2
+            // enterWind
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.textBox2.Location = new System.Drawing.Point(32, 255);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(209, 20);
-            this.textBox2.TabIndex = 2;
+            this.enterWind.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.enterWind.Location = new System.Drawing.Point(32, 255);
+            this.enterWind.Name = "enterWind";
+            this.enterWind.Size = new System.Drawing.Size(209, 20);
+            this.enterWind.TabIndex = 2;
             // 
-            // textBox3
+            // enterAlt
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.textBox3.Location = new System.Drawing.Point(32, 355);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(209, 20);
-            this.textBox3.TabIndex = 3;
+            this.enterAlt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.enterAlt.Location = new System.Drawing.Point(32, 355);
+            this.enterAlt.Name = "enterAlt";
+            this.enterAlt.Size = new System.Drawing.Size(209, 20);
+            this.enterAlt.TabIndex = 3;
             // 
             // textBox4
             // 
@@ -86,9 +86,9 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.viewResultCessna172);
             this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.enterAlt);
+            this.Controls.Add(this.enterWind);
+            this.Controls.Add(this.enterTemperature);
             this.Name = "AccelerationStop_Cessna172";
             this.Text = "AccelerationStop_Cessna172";
             this.ResumeLayout(false);
@@ -98,9 +98,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox enterTemperature;
+        private System.Windows.Forms.TextBox enterWind;
+        private System.Windows.Forms.TextBox enterAlt;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button viewResultCessna172;
     }

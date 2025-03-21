@@ -16,5 +16,23 @@ namespace W_B_Calculator
         {
             InitializeComponent();
         }
+       public int GetTemperature()
+        {
+            int temp = Int32.Parse(enterTemperature.Text);
+           return temp;
+        }
+        public int GetAlt()
+        {
+            int alt = Int32.Parse(enterAlt.Text);
+            return alt;
+        }
+
+        private void viewResultCessna172_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AccelerationStopResults_172 accelerationStopResults_172 = new AccelerationStopResults_172();
+            accelerationStopResults_172.FormClosed += (s, args) => this.Close();
+            accelerationStopResults_172.Show();
+        }
     }
 }

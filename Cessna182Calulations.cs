@@ -16,5 +16,21 @@ namespace W_B_Calculator
         {
             InitializeComponent();
         }
+
+        private void Calculations182_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            WithinEnvelope_Cessna182 withinEnvelope_Cessna182 = new WithinEnvelope_Cessna182();
+            withinEnvelope_Cessna182.FormClosed += (s, args) => this.Close();
+            withinEnvelope_Cessna182.Show();
+        }
+
+        private void Accerleration182_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AccelerationStop_Cessna182 accelerationStop_Cessna182 = new AccelerationStop_Cessna182();
+            accelerationStop_Cessna182.FormClosed += (s, args) => this.Close();
+            accelerationStop_Cessna182.Show();
+        }
     }
 }

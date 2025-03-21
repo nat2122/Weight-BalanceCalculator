@@ -16,5 +16,13 @@ namespace W_B_Calculator
         {
             InitializeComponent();
         }
+
+        private void viewResultMustang_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AccelerationStopResults_Mustang accelerationStopResults_Mustang = new AccelerationStopResults_Mustang();
+            accelerationStopResults_Mustang.FormClosed += (s, args) => this.Close();
+            accelerationStopResults_Mustang.Show();
+        }
     }
 }

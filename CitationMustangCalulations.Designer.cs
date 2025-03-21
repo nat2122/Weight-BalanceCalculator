@@ -29,63 +29,63 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CitationMustangCalulations));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.NoseBagWeight = new System.Windows.Forms.TextBox();
+            this.TotalWeightMust = new System.Windows.Forms.TextBox();
+            this.TotalWeightPass1and2 = new System.Windows.Forms.TextBox();
+            this.TotalWeightPass3and4 = new System.Windows.Forms.TextBox();
+            this.TailBagWeight = new System.Windows.Forms.TextBox();
+            this.TotalFuelWeight = new System.Windows.Forms.TextBox();
             this.Accerleration182 = new System.Windows.Forms.Button();
             this.Calculations182 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // NoseBagWeight
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.textBox1.Location = new System.Drawing.Point(43, 134);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(127, 20);
-            this.textBox1.TabIndex = 0;
+            this.NoseBagWeight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.NoseBagWeight.Location = new System.Drawing.Point(43, 134);
+            this.NoseBagWeight.Name = "NoseBagWeight";
+            this.NoseBagWeight.Size = new System.Drawing.Size(127, 20);
+            this.NoseBagWeight.TabIndex = 0;
             // 
-            // textBox2
+            // TotalWeightMust
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.textBox2.Location = new System.Drawing.Point(43, 229);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(127, 20);
-            this.textBox2.TabIndex = 1;
+            this.TotalWeightMust.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TotalWeightMust.Location = new System.Drawing.Point(43, 229);
+            this.TotalWeightMust.Name = "TotalWeightMust";
+            this.TotalWeightMust.Size = new System.Drawing.Size(127, 20);
+            this.TotalWeightMust.TabIndex = 1;
             // 
-            // textBox3
+            // TotalWeightPass1and2
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.textBox3.Location = new System.Drawing.Point(43, 319);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(127, 20);
-            this.textBox3.TabIndex = 2;
+            this.TotalWeightPass1and2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TotalWeightPass1and2.Location = new System.Drawing.Point(43, 319);
+            this.TotalWeightPass1and2.Name = "TotalWeightPass1and2";
+            this.TotalWeightPass1and2.Size = new System.Drawing.Size(127, 20);
+            this.TotalWeightPass1and2.TabIndex = 2;
             // 
-            // textBox4
+            // TotalWeightPass3and4
             // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.textBox4.Location = new System.Drawing.Point(43, 396);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(127, 20);
-            this.textBox4.TabIndex = 3;
+            this.TotalWeightPass3and4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TotalWeightPass3and4.Location = new System.Drawing.Point(43, 396);
+            this.TotalWeightPass3and4.Name = "TotalWeightPass3and4";
+            this.TotalWeightPass3and4.Size = new System.Drawing.Size(127, 20);
+            this.TotalWeightPass3and4.TabIndex = 3;
             // 
-            // textBox5
+            // TailBagWeight
             // 
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.textBox5.Location = new System.Drawing.Point(346, 134);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(127, 20);
-            this.textBox5.TabIndex = 4;
+            this.TailBagWeight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TailBagWeight.Location = new System.Drawing.Point(346, 134);
+            this.TailBagWeight.Name = "TailBagWeight";
+            this.TailBagWeight.Size = new System.Drawing.Size(127, 20);
+            this.TailBagWeight.TabIndex = 4;
             // 
-            // textBox6
+            // TotalFuelWeight
             // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.textBox6.Location = new System.Drawing.Point(346, 239);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(127, 20);
-            this.textBox6.TabIndex = 5;
+            this.TotalFuelWeight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.TotalFuelWeight.Location = new System.Drawing.Point(346, 239);
+            this.TotalFuelWeight.Name = "TotalFuelWeight";
+            this.TotalFuelWeight.Size = new System.Drawing.Size(127, 20);
+            this.TotalFuelWeight.TabIndex = 5;
             // 
             // Accerleration182
             // 
@@ -96,6 +96,7 @@
             this.Accerleration182.TabIndex = 6;
             this.Accerleration182.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Accerleration182.UseVisualStyleBackColor = true;
+            this.Accerleration182.Click += new System.EventHandler(this.Accerleration182_Click);
             // 
             // Calculations182
             // 
@@ -105,6 +106,7 @@
             this.Calculations182.Size = new System.Drawing.Size(184, 67);
             this.Calculations182.TabIndex = 7;
             this.Calculations182.UseVisualStyleBackColor = true;
+            this.Calculations182.Click += new System.EventHandler(this.Calculations182_Click);
             // 
             // CitationMustangCalulations
             // 
@@ -114,12 +116,12 @@
             this.ClientSize = new System.Drawing.Size(716, 450);
             this.Controls.Add(this.Calculations182);
             this.Controls.Add(this.Accerleration182);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TotalFuelWeight);
+            this.Controls.Add(this.TailBagWeight);
+            this.Controls.Add(this.TotalWeightPass3and4);
+            this.Controls.Add(this.TotalWeightPass1and2);
+            this.Controls.Add(this.TotalWeightMust);
+            this.Controls.Add(this.NoseBagWeight);
             this.Name = "CitationMustangCalulations";
             this.Text = "Form2";
             this.ResumeLayout(false);
@@ -129,12 +131,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox NoseBagWeight;
+        private System.Windows.Forms.TextBox TotalWeightMust;
+        private System.Windows.Forms.TextBox TotalWeightPass1and2;
+        private System.Windows.Forms.TextBox TotalWeightPass3and4;
+        private System.Windows.Forms.TextBox TailBagWeight;
+        private System.Windows.Forms.TextBox TotalFuelWeight;
         private System.Windows.Forms.Button Accerleration182;
         private System.Windows.Forms.Button Calculations182;
     }

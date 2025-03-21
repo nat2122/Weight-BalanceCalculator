@@ -29,45 +29,45 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cessna172Calulations));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.TotalWeight = new System.Windows.Forms.TextBox();
+            this.WeightPass = new System.Windows.Forms.TextBox();
+            this.WeightOfBag = new System.Windows.Forms.TextBox();
+            this.WeightOffuel = new System.Windows.Forms.TextBox();
             this.Accerleration182 = new System.Windows.Forms.Button();
             this.Calculations182 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // TotalWeight
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.textBox1.Location = new System.Drawing.Point(68, 164);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(250, 20);
-            this.textBox1.TabIndex = 0;
+            this.TotalWeight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.TotalWeight.Location = new System.Drawing.Point(68, 164);
+            this.TotalWeight.Name = "TotalWeight";
+            this.TotalWeight.Size = new System.Drawing.Size(250, 20);
+            this.TotalWeight.TabIndex = 0;
             // 
-            // textBox2
+            // WeightPass
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.textBox2.Location = new System.Drawing.Point(68, 252);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(250, 20);
-            this.textBox2.TabIndex = 1;
+            this.WeightPass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.WeightPass.Location = new System.Drawing.Point(68, 252);
+            this.WeightPass.Name = "WeightPass";
+            this.WeightPass.Size = new System.Drawing.Size(250, 20);
+            this.WeightPass.TabIndex = 1;
             // 
-            // textBox3
+            // WeightOfBag
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.textBox3.Location = new System.Drawing.Point(68, 342);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(250, 20);
-            this.textBox3.TabIndex = 2;
+            this.WeightOfBag.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.WeightOfBag.Location = new System.Drawing.Point(68, 342);
+            this.WeightOfBag.Name = "WeightOfBag";
+            this.WeightOfBag.Size = new System.Drawing.Size(250, 20);
+            this.WeightOfBag.TabIndex = 2;
             // 
-            // textBox4
+            // WeightOffuel
             // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.textBox4.Location = new System.Drawing.Point(68, 418);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(250, 20);
-            this.textBox4.TabIndex = 3;
+            this.WeightOffuel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.WeightOffuel.Location = new System.Drawing.Point(68, 418);
+            this.WeightOffuel.Name = "WeightOffuel";
+            this.WeightOffuel.Size = new System.Drawing.Size(250, 20);
+            this.WeightOffuel.TabIndex = 3;
             // 
             // Accerleration182
             // 
@@ -78,6 +78,7 @@
             this.Accerleration182.TabIndex = 7;
             this.Accerleration182.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Accerleration182.UseVisualStyleBackColor = true;
+            this.Accerleration182.Click += new System.EventHandler(this.Accerleration182_Click);
             // 
             // Calculations182
             // 
@@ -97,10 +98,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Calculations182);
             this.Controls.Add(this.Accerleration182);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.WeightOffuel);
+            this.Controls.Add(this.WeightOfBag);
+            this.Controls.Add(this.WeightPass);
+            this.Controls.Add(this.TotalWeight);
             this.Name = "Cessna172Calulations";
             this.Text = "Cessna172Calulations";
             this.ResumeLayout(false);
@@ -110,10 +111,10 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox TotalWeight;
+        private System.Windows.Forms.TextBox WeightPass;
+        private System.Windows.Forms.TextBox WeightOfBag;
+        private System.Windows.Forms.TextBox WeightOffuel;
         private System.Windows.Forms.Button Accerleration182;
         private System.Windows.Forms.Button Calculations182;
     }

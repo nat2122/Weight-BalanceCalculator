@@ -29,21 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AccelerationStop_Cessna182));
-            this.viewResultMustang = new System.Windows.Forms.Button();
+            this.viewResultCessna182 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // viewResultMustang
+            // viewResultCessna182
             // 
-            this.viewResultMustang.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("viewResultMustang.BackgroundImage")));
-            this.viewResultMustang.Location = new System.Drawing.Point(559, 209);
-            this.viewResultMustang.Name = "viewResultMustang";
-            this.viewResultMustang.Size = new System.Drawing.Size(173, 72);
-            this.viewResultMustang.TabIndex = 5;
-            this.viewResultMustang.UseVisualStyleBackColor = true;
+            this.viewResultCessna182.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("viewResultCessna182.BackgroundImage")));
+            this.viewResultCessna182.Location = new System.Drawing.Point(559, 209);
+            this.viewResultCessna182.Name = "viewResultCessna182";
+            this.viewResultCessna182.Size = new System.Drawing.Size(173, 72);
+            this.viewResultCessna182.TabIndex = 5;
+            this.viewResultCessna182.UseVisualStyleBackColor = true;
+            this.viewResultCessna182.Click += new System.EventHandler(this.viewResultCessna182_Click);
             // 
             // textBox1
             // 
@@ -87,7 +88,7 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.viewResultMustang);
+            this.Controls.Add(this.viewResultCessna182);
             this.Name = "AccelerationStop_Cessna182";
             this.Text = "AccelerationStop_Cessna182";
             this.ResumeLayout(false);
@@ -97,7 +98,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button viewResultMustang;
+        private System.Windows.Forms.Button viewResultCessna182;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;

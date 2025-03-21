@@ -16,5 +16,13 @@ namespace W_B_Calculator
         {
             InitializeComponent();
         }
+
+        private void viewResultCessna182_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AccelerationStopResults_182 accelerationStopResults_182 = new AccelerationStopResults_182();
+            accelerationStopResults_182.FormClosed += (s, args) => this.Close();
+            accelerationStopResults_182.Show();
+        }
     }
 }

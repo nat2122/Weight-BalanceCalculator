@@ -29,45 +29,45 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cessna182Calulations));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.totalWeight182 = new System.Windows.Forms.TextBox();
+            this.TotalWeightPass182 = new System.Windows.Forms.TextBox();
+            this.TotalWeightofBag182 = new System.Windows.Forms.TextBox();
+            this.TotalWeightFuel182 = new System.Windows.Forms.TextBox();
             this.Accerleration182 = new System.Windows.Forms.Button();
             this.Calculations182 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // totalWeight182
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox1.Location = new System.Drawing.Point(46, 171);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(251, 20);
-            this.textBox1.TabIndex = 0;
+            this.totalWeight182.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.totalWeight182.Location = new System.Drawing.Point(46, 171);
+            this.totalWeight182.Name = "totalWeight182";
+            this.totalWeight182.Size = new System.Drawing.Size(251, 20);
+            this.totalWeight182.TabIndex = 0;
             // 
-            // textBox2
+            // TotalWeightPass182
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox2.Location = new System.Drawing.Point(46, 263);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(251, 20);
-            this.textBox2.TabIndex = 1;
+            this.TotalWeightPass182.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.TotalWeightPass182.Location = new System.Drawing.Point(46, 263);
+            this.TotalWeightPass182.Name = "TotalWeightPass182";
+            this.TotalWeightPass182.Size = new System.Drawing.Size(251, 20);
+            this.TotalWeightPass182.TabIndex = 1;
             // 
-            // textBox3
+            // TotalWeightofBag182
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox3.Location = new System.Drawing.Point(46, 352);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(251, 20);
-            this.textBox3.TabIndex = 2;
+            this.TotalWeightofBag182.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.TotalWeightofBag182.Location = new System.Drawing.Point(46, 352);
+            this.TotalWeightofBag182.Name = "TotalWeightofBag182";
+            this.TotalWeightofBag182.Size = new System.Drawing.Size(251, 20);
+            this.TotalWeightofBag182.TabIndex = 2;
             // 
-            // textBox4
+            // TotalWeightFuel182
             // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox4.Location = new System.Drawing.Point(46, 440);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(251, 20);
-            this.textBox4.TabIndex = 3;
+            this.TotalWeightFuel182.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.TotalWeightFuel182.Location = new System.Drawing.Point(46, 440);
+            this.TotalWeightFuel182.Name = "TotalWeightFuel182";
+            this.TotalWeightFuel182.Size = new System.Drawing.Size(251, 20);
+            this.TotalWeightFuel182.TabIndex = 3;
             // 
             // Accerleration182
             // 
@@ -78,6 +78,7 @@
             this.Accerleration182.TabIndex = 4;
             this.Accerleration182.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Accerleration182.UseVisualStyleBackColor = true;
+            this.Accerleration182.Click += new System.EventHandler(this.Accerleration182_Click);
             // 
             // Calculations182
             // 
@@ -87,6 +88,7 @@
             this.Calculations182.Size = new System.Drawing.Size(184, 67);
             this.Calculations182.TabIndex = 5;
             this.Calculations182.UseVisualStyleBackColor = true;
+            this.Calculations182.Click += new System.EventHandler(this.Calculations182_Click);
             // 
             // Cessna182Calulations
             // 
@@ -97,10 +99,10 @@
             this.ClientSize = new System.Drawing.Size(787, 472);
             this.Controls.Add(this.Calculations182);
             this.Controls.Add(this.Accerleration182);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TotalWeightFuel182);
+            this.Controls.Add(this.TotalWeightofBag182);
+            this.Controls.Add(this.TotalWeightPass182);
+            this.Controls.Add(this.totalWeight182);
             this.Name = "Cessna182Calulations";
             this.Text = "Cessna182Calulations";
             this.ResumeLayout(false);
@@ -110,10 +112,10 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox totalWeight182;
+        private System.Windows.Forms.TextBox TotalWeightPass182;
+        private System.Windows.Forms.TextBox TotalWeightofBag182;
+        private System.Windows.Forms.TextBox TotalWeightFuel182;
         private System.Windows.Forms.Button Accerleration182;
         private System.Windows.Forms.Button Calculations182;
     }

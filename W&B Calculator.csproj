@@ -82,18 +82,21 @@
     <Compile Include="AccelerationStop_Mustang.Designer.cs">
       <DependentUpon>AccelerationStop_Mustang.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cessna172.cs" />
     <Compile Include="Cessna172Calulations.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Cessna172Calulations.Designer.cs">
       <DependentUpon>Cessna172Calulations.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cessna182.cs" />
     <Compile Include="Cessna182Calulations.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Cessna182Calulations.Designer.cs">
       <DependentUpon>Cessna182Calulations.cs</DependentUpon>
     </Compile>
+    <Compile Include="CitationMustang.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

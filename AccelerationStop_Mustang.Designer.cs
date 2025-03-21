@@ -76,6 +76,7 @@
             this.viewResultMustang.Size = new System.Drawing.Size(173, 72);
             this.viewResultMustang.TabIndex = 4;
             this.viewResultMustang.UseVisualStyleBackColor = true;
+            this.viewResultMustang.Click += new System.EventHandler(this.viewResultMustang_Click);
             // 
             // AccelerationStop_Mustang
             // 
