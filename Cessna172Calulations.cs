@@ -57,18 +57,20 @@ namespace W_B_Calculator
         public int GetWeightOfPass172() => totalWeightOfPass;
         public int GetTotalBag172() => totalWeightbag172;
         public int GetWeightFuel172() => totalWeightFuel172;
+
         
 
+        //private Cessna172Calulations calculationsForm = new Cessna172Calulations();
         private void Accerleration172_Click(object sender, EventArgs e)
         {
             this.Hide();
-            AccelerationStop_Cessna172 accelerationStop_Cessna172 = new AccelerationStop_Cessna172();
+            AccelerationStop_Cessna172 accelerationStop_Cessna172 = new AccelerationStop_Cessna172(this);
             accelerationStop_Cessna172.Show();
             accelerationStop_Cessna172.FormClosed += (s, args) => this.Close();
             accelerationStop_Cessna172.Show();
-           // string g = GetTotalBag172().ToString();
-            //MessageBox.Show(g);
-         
+             string g = GetTotalBag172().ToString();
+            MessageBox.Show(g);
+          
         }
 
         private void Calculations172_Click(object sender, EventArgs e)

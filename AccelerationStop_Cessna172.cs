@@ -5,17 +5,18 @@ namespace W_B_Calculator
 {
     public partial class AccelerationStop_Cessna172 : Form
     {
-        private Cessna172Calulations cessna172Calulations;  // To hold the Cessna172Calulations data
+     
 
         // Constructor accepting Cessna172Calulations
-      
-    
+        private Cessna172Calulations calculations; // Class-level variable
 
-        public AccelerationStop_Cessna172()
+        public AccelerationStop_Cessna172(Cessna172Calulations calculations)
         {
             InitializeComponent();
-            cessna172Calulations = calculations;
+            this.calculations = calculations; // Assign the parameter to the class variable
         }
+
+
 
         private int totalTemperature = 0; // Store user input
         private void enterTemperature_TextChanged(object sender, EventArgs e)
@@ -34,7 +35,7 @@ namespace W_B_Calculator
         // Getting Altitude
         private int totalAlt = 0; // Store user input   
         private Cessna172 cessna172;
-        private Cessna172Calulations calculations;
+    //    private Cessna172Calulations calculations;
 
         private void enterAlt_TextChanged(object sender, EventArgs e)
         {

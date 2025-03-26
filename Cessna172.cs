@@ -23,11 +23,12 @@ namespace W_B_Calculator
             int passWeight = cessna172Calulations.GetWeightOfPass172();
             int bagWeight = cessna172Calulations.GetTotalBag172();
             int fuelWeight = cessna172Calulations.GetWeightFuel172();
-
-            MessageBox.Show($"Total Weight: {totalWeight}\n" +
-                            $"Passenger Weight: {passWeight}\n" +
-                            $"Baggage Weight: {bagWeight}\n" +
-                            $"Fuel Weight: {fuelWeight}");
+            
+                        MessageBox.Show($"Total Weight: {totalWeight}\n" +
+                                        $"Passenger Weight: {passWeight}\n" +
+                                        $"Baggage Weight: {bagWeight}\n" +
+                                        $"Fuel Weight: {fuelWeight}");
+            
 
             double momentPilot = totalWeight * 37;
             double momentPass = passWeight * 73;
@@ -47,16 +48,18 @@ namespace W_B_Calculator
 public static int calculatingTotalRamp()
         {
             Cessna172Calulations cessna172Calulations = new Cessna172Calulations();
-            int totalRamp = cessna172Calulations.GetWeightOfPass172() + cessna172Calulations.GetWeightFuel172() + cessna172Calulations.GetTotalWeight172() + cessna172Calulations.GetTotalBag172();
+            int totalRamp = cessna172Calulations.GetWeightOfPass172() + cessna172Calulations.GetWeightFuel172() + cessna172Calulations.GetTotalWeight172() + cessna172Calulations.GetTotalBag172() + 1680;
             int takeOff = totalRamp - 7;
             return takeOff;
         }
         // CALCULATING TAKEOFF DISTANCE //
         public  int takeOffDistance()
         {
-            AccelerationStop_Cessna172 accelerationStop_Cessna172 = new AccelerationStop_Cessna172();
-            int temperature = accelerationStop_Cessna172.GetTemperature();
-            int altitude = accelerationStop_Cessna172.GetAlt();
+            Cessna172Calulations calculationsForm = new Cessna172Calulations();
+            AccelerationStop_Cessna172 accelerationStopForm = new AccelerationStop_Cessna172(calculationsForm);
+
+            int temperature = accelerationStopForm.GetTemperature();
+            int altitude = accelerationStopForm.GetAlt();
             int rampWeight = calculatingTotalRamp();
 
             if (rampWeight >= 2550 - 50 && rampWeight <= 2550 + 50)

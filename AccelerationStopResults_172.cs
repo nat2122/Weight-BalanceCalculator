@@ -18,7 +18,10 @@ namespace W_B_Calculator
         public AccelerationStopResults_172()
         {
             InitializeComponent();
-            viewResults(cessna172Calulations);
+          viewResults(cessna172Calulations);
+            
+            int num = 1720;
+            textBox1.Text = num.ToString();
         }
         public string viewResults(Cessna172Calulations cessna172Calulations)
         {
@@ -37,10 +40,7 @@ namespace W_B_Calculator
             return takeOffMoment.ToString();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+    
     }
 }
 

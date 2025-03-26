@@ -32,7 +32,7 @@ namespace W_B_Calculator
 
             // You can use the weight data in calculations here if necessary
             // You can also update the form with the weight details
-            if (cessna172Calulations != null)
+          /*  if (cessna172Calulations != null)
             {
                 // Displaying data as an example
                 MessageBox.Show($"Total Weight: {cessna172Calulations.GetTotalWeight172()}\n" +
@@ -40,9 +40,12 @@ namespace W_B_Calculator
                                  $"Baggage Weight: {cessna172Calulations.GetTotalBag172()}\n" +
                                  $"Fuel Weight: {cessna172Calulations.GetWeightFuel172()}");
             }
+          */
 
             // Adding the plot for the form
             formsPlot1.Plot.Clear();
+            double[] v = { 107 };
+            double[] b = { 2300 };
             double[] xs = { 52, 68, 83, 95, 105.5 };
             double[] ys = { 1500, 1950, 2200, 2400, 2550 };
             // top line 
@@ -54,6 +57,7 @@ namespace W_B_Calculator
             //bottom line
             double[] xc = { 52, 70.5 };
             double[] yc = { 1500, 1500 };
+            formsPlot1.Plot.Add.Scatter(v, b);
             formsPlot1.Plot.Add.Scatter(xs, ys);
             formsPlot1.Plot.Add.Scatter(xa, ya);
             formsPlot1.Plot.Add.Scatter(xb, yb);
@@ -72,6 +76,8 @@ namespace W_B_Calculator
 
             // Plotting data as per the logic
             formsPlot1.Plot.Clear();
+            double[] v = { 107 };
+            double[] b = { 2300 };
             double[] xs = { 52, 68, 83, 95, 105.5 };
             double[] ys = { 1500, 1950, 2200, 2400, 2550 };
             // top line 
@@ -83,6 +89,7 @@ namespace W_B_Calculator
             //bottom line
             double[] xc = { 52, 70.5 };
             double[] yc = { 1500, 1500 };
+            formsPlot1.Plot.Add.Scatter(v, b);
             formsPlot1.Plot.Add.Scatter(xs, ys);
             formsPlot1.Plot.Add.Scatter(xa, ya);
             formsPlot1.Plot.Add.Scatter(xb, yb);
