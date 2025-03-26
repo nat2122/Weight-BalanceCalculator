@@ -29,7 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WithinEnvelope_Cessna172));
+            this.formsPlot1 = new ScottPlot.WinForms.FormsPlot();
             this.SuspendLayout();
+            // 
+            // formsPlot1
+            // 
+            this.formsPlot1.DisplayScale = 0F;
+            this.formsPlot1.Location = new System.Drawing.Point(124, 201);
+            this.formsPlot1.Name = "formsPlot1";
+            this.formsPlot1.Size = new System.Drawing.Size(329, 237);
+            this.formsPlot1.TabIndex = 0;
+            this.formsPlot1.Load += new System.EventHandler(this.formsPlot1_Load);
             // 
             // WithinEnvelope_Cessna172
             // 
@@ -37,6 +47,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.formsPlot1);
             this.Name = "WithinEnvelope_Cessna172";
             this.Text = "WithinEnvelope_Cessna172";
             this.ResumeLayout(false);
@@ -44,5 +55,7 @@
         }
 
         #endregion
+
+        private ScottPlot.WinForms.FormsPlot formsPlot1;
     }
 }

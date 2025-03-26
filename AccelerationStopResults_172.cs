@@ -12,9 +12,35 @@ namespace W_B_Calculator
 {
     public partial class AccelerationStopResults_172: Form
     {
+       // private Cessna172Calulations cessna172Calulations;
+        Cessna172Calulations cessna172Calulations = new Cessna172Calulations();
+
         public AccelerationStopResults_172()
         {
             InitializeComponent();
+            viewResults(cessna172Calulations);
+        }
+        public string viewResults(Cessna172Calulations cessna172Calulations)
+        {
+            if (cessna172Calulations == null)
+            {
+                MessageBox.Show("Error: Cessna172Calulations instance is null!");
+                return "Error";
+            }
+
+            Cessna172 cessna172 = new Cessna172();
+
+            int takeOffMoment = cessna172.calculatingMoment172(cessna172Calulations);
+
+            MessageBox.Show("The Takeoff Moment is: " + takeOffMoment);
+
+            return takeOffMoment.ToString();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
+

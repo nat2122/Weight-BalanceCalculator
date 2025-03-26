@@ -24,6 +24,7 @@ namespace W_B_Calculator
                 Cessna172Calulations cessna172Calulations = new Cessna172Calulations();
                 cessna172Calulations.FormClosed += (s, args) => this.Close();
                 cessna172Calulations.Show();
+                MessageBox.Show("Please make sure that all numbers are in Pounds");
 
             }
         }
@@ -35,6 +36,7 @@ namespace W_B_Calculator
                 Cessna182Calulations cessna182Calulations = new Cessna182Calulations();
                 cessna182Calulations.FormClosed += (s, args) => this.Close();
                 cessna182Calulations.Show();
+                MessageBox.Show("Please make sure that all numbers are in Pounds");
             }
         }
 
@@ -45,6 +47,7 @@ namespace W_B_Calculator
                 CitationMustangCalulations citationMustangCalulations = new CitationMustangCalulations();
                 citationMustangCalulations.FormClosed += (s, args) => this.Close();
                 citationMustangCalulations.Show();
+                MessageBox.Show("Please make sure that all numbers are in Pounds");
 
             }
         }

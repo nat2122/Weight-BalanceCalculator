@@ -33,8 +33,8 @@
             this.WeightPass = new System.Windows.Forms.TextBox();
             this.WeightOfBag = new System.Windows.Forms.TextBox();
             this.WeightOffuel = new System.Windows.Forms.TextBox();
-            this.Accerleration182 = new System.Windows.Forms.Button();
-            this.Calculations182 = new System.Windows.Forms.Button();
+            this.Accerleration172 = new System.Windows.Forms.Button();
+            this.Calculations172 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TotalWeight
@@ -69,26 +69,26 @@
             this.WeightOffuel.Size = new System.Drawing.Size(250, 20);
             this.WeightOffuel.TabIndex = 3;
             // 
-            // Accerleration182
+            // Accerleration172
             // 
-            this.Accerleration182.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Accerleration182.BackgroundImage")));
-            this.Accerleration182.Location = new System.Drawing.Point(468, 252);
-            this.Accerleration182.Name = "Accerleration182";
-            this.Accerleration182.Size = new System.Drawing.Size(279, 63);
-            this.Accerleration182.TabIndex = 7;
-            this.Accerleration182.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Accerleration182.UseVisualStyleBackColor = true;
-            this.Accerleration182.Click += new System.EventHandler(this.Accerleration182_Click);
+            this.Accerleration172.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Accerleration172.BackgroundImage")));
+            this.Accerleration172.Location = new System.Drawing.Point(468, 252);
+            this.Accerleration172.Name = "Accerleration172";
+            this.Accerleration172.Size = new System.Drawing.Size(279, 63);
+            this.Accerleration172.TabIndex = 7;
+            this.Accerleration172.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.Accerleration172.UseVisualStyleBackColor = true;
+            this.Accerleration172.Click += new System.EventHandler(this.Accerleration172_Click);
             // 
-            // Calculations182
+            // Calculations172
             // 
-            this.Calculations182.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Calculations182.BackgroundImage")));
-            this.Calculations182.Location = new System.Drawing.Point(518, 342);
-            this.Calculations182.Name = "Calculations182";
-            this.Calculations182.Size = new System.Drawing.Size(184, 67);
-            this.Calculations182.TabIndex = 8;
-            this.Calculations182.UseVisualStyleBackColor = true;
-            this.Calculations182.Click += new System.EventHandler(this.Calculations182_Click);
+            this.Calculations172.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Calculations172.BackgroundImage")));
+            this.Calculations172.Location = new System.Drawing.Point(518, 342);
+            this.Calculations172.Name = "Calculations172";
+            this.Calculations172.Size = new System.Drawing.Size(184, 67);
+            this.Calculations172.TabIndex = 8;
+            this.Calculations172.UseVisualStyleBackColor = true;
+            this.Calculations172.Click += new System.EventHandler(this.Calculations172_Click);
             // 
             // Cessna172Calulations
             // 
@@ -96,8 +96,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Calculations182);
-            this.Controls.Add(this.Accerleration182);
+            this.Controls.Add(this.Calculations172);
+            this.Controls.Add(this.Accerleration172);
             this.Controls.Add(this.WeightOffuel);
             this.Controls.Add(this.WeightOfBag);
             this.Controls.Add(this.WeightPass);
@@ -115,7 +115,7 @@
         private System.Windows.Forms.TextBox WeightPass;
         private System.Windows.Forms.TextBox WeightOfBag;
         private System.Windows.Forms.TextBox WeightOffuel;
-        private System.Windows.Forms.Button Accerleration182;
-        private System.Windows.Forms.Button Calculations182;
+        private System.Windows.Forms.Button Accerleration172;
+        private System.Windows.Forms.Button Calculations172;
     }
 }

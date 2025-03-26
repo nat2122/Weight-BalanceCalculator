@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="Accerleration182.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Accerleration172.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAiIAAAC1CAYAAABiSJT4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DAAACwwBP0AiyAAACItJREFUeF7t27+vXEcZBmBXWIpICpKCH1IQCCRLSCAiBSgMRYyQQuWKSBFJE3dI
@@ -161,10 +161,10 @@
         gg==
 </value>
   </data>
-  <data name="Calculations182.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Calculations172.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAiIAAAC1CAYAAABiSJT4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAB3BJREFUeF7t3LGLXOcVxmFVEZjIha0iiUHCwQFBIMYCYxfChW0MTiU3EZjIjdUF
+        DAAACwwBP0AiyAAAB3BJREFUeF7t3LGLXOcVxmFVEZjIha0iiUHCwQFBIMYCYxfChW0MTiU3EZjIjdUF
         XLt2rdp1/lNlz8IZzn7c2VlPNPvurp/iYWfunLlz77Xg++3MeO/9578/vgEASBAiAECMEAEAYoQIABAj
         RACAGCECAMQIEQAgRogAADFCBACIESIAQIwQAQBihAgAECNEAIAYIQIAxAgRACBGiAAAMUIEAIgRIgBA
         jBABAGKECAAQI0QAgBghAgDECBEAIEaIAAAxJw+RBw//eO4f3/z9wva634/V/Q+fPj6//Zcnf7owd9ud

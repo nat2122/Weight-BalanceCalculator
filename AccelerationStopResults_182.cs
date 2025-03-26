@@ -16,5 +16,7 @@ namespace W_B_Calculator
         {
             InitializeComponent();
         }
+
+     
     }
 }

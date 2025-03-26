@@ -1,73 +1,86 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
+using System;
 
 namespace W_B_Calculator
 {
-    public partial class Cessna172Calulations: Form
+    public partial class Cessna172Calulations : Form
     {
+        private int totalWeight172 = 0;
+        private int totalWeightOfPass = 0;
+        private int totalWeightbag172 = 0;
+        private int totalWeightFuel172 = 0;
+
         public Cessna172Calulations()
         {
             InitializeComponent();
+
+            TotalWeight.TextChanged += TotalWeight_TextChanged;
+            WeightPass.TextChanged += WeightPass_TextChanged;
+            WeightOfBag.TextChanged += WeightOfBag_TextChanged;
+            WeightOffuel.TextChanged += WeightOffuel_TextChanged;
+
+            TotalWeight.KeyPress += TextBox_KeyPress;
+            WeightPass.KeyPress += TextBox_KeyPress;
+            WeightOfBag.KeyPress += TextBox_KeyPress;
+            WeightOffuel.KeyPress += TextBox_KeyPress;
         }
 
-        // TEXTBOXES //
-
-        // getting total weight
-        public int GetTotalWeight172() // get total weight
+        private void TextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            int totalWeight172 = Int32.Parse(TotalWeight.Text);
-            return totalWeight172;
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
         }
 
-        // getting weight of passengers
-        public int GetWeightOfPass172()
+        private void TotalWeight_TextChanged(object sender, EventArgs e)
         {
-            int weightOfPass172 = Int32.Parse(WeightPass.Text);
-            return weightOfPass172;
+            totalWeight172 = int.TryParse(TotalWeight.Text, out int weight) ? weight : 0;
         }
-        // getting total weight of the baggage
-       public int GetTotalBag172()
-        {
-            int totalWeightBag172 = Int32.Parse(WeightOfBag.Text);
-            return totalWeightBag172;
-        }
-        // getting total weight of fuel in both wings
-        public int GetWeightFuel172()
-        {
-            int getWeightfuel172 = Int32.Parse(WeightOffuel.Text);
-            return getWeightfuel172;
 
+        private void WeightPass_TextChanged(object sender, EventArgs e)
+        {
+            totalWeightOfPass = int.TryParse(WeightPass.Text, out int weightOfPass) ? weightOfPass : 0;
         }
-       
-        // BUTTONS //
-        private void Calculations182_Click(object sender, EventArgs e)
+
+        private void WeightOfBag_TextChanged(object sender, EventArgs e)
+        {
+            totalWeightbag172 = int.TryParse(WeightOfBag.Text, out int weightOfBag) ? weightOfBag : 0;
+        }
+
+        private void WeightOffuel_TextChanged(object sender, EventArgs e)
+        {
+            totalWeightFuel172 = int.TryParse(WeightOffuel.Text, out int weightFuel) ? weightFuel : 0;
+        }
+
+        public int GetTotalWeight172() => totalWeight172;
+        public int GetWeightOfPass172() => totalWeightOfPass;
+        public int GetTotalBag172() => totalWeightbag172;
+        public int GetWeightFuel172() => totalWeightFuel172;
+        
+
+        private void Accerleration172_Click(object sender, EventArgs e)
         {
             this.Hide();
-            WithinEnvelope_Cessna172 withinEnvelope_Cessna172 = new WithinEnvelope_Cessna172();
+            AccelerationStop_Cessna172 accelerationStop_Cessna172 = new AccelerationStop_Cessna172();
+            accelerationStop_Cessna172.Show();
+            accelerationStop_Cessna172.FormClosed += (s, args) => this.Close();
+            accelerationStop_Cessna172.Show();
+           // string g = GetTotalBag172().ToString();
+            //MessageBox.Show(g);
+         
+        }
+
+        private void Calculations172_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            WithinEnvelope_Cessna172 withinEnvelope_Cessna172 = new WithinEnvelope_Cessna172(this);
+            withinEnvelope_Cessna172.Show();
             withinEnvelope_Cessna172.FormClosed += (s, args) => this.Close();
             withinEnvelope_Cessna172.Show();
-            // if statements here for all of the sections about the max and min for each
 
-           if(GetTotalWeight172() + GetTotalBag172() + GetWeightFuel172() + GetWeightOfPass172() + 1450 > 2550)
-            {
-                MessageBox.Show("Exceeds weight limits, please try again");
-            }
-           
-        }
-     
-        private void Accerleration182_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            AccelerationStopResults_172 accelerationStopResults_172 = new AccelerationStopResults_172();
-            accelerationStopResults_172.FormClosed += (s, args) => this.Close();
-            accelerationStopResults_172.Show();
         }
     }
 }
+
+

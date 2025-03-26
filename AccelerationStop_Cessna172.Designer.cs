@@ -32,7 +32,6 @@
             this.enterTemperature = new System.Windows.Forms.TextBox();
             this.enterWind = new System.Windows.Forms.TextBox();
             this.enterAlt = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.viewResultCessna172 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -43,6 +42,7 @@
             this.enterTemperature.Name = "enterTemperature";
             this.enterTemperature.Size = new System.Drawing.Size(209, 20);
             this.enterTemperature.TabIndex = 1;
+            this.enterTemperature.TextChanged += new System.EventHandler(this.enterTemperature_TextChanged);
             // 
             // enterWind
             // 
@@ -59,14 +59,7 @@
             this.enterAlt.Name = "enterAlt";
             this.enterAlt.Size = new System.Drawing.Size(209, 20);
             this.enterAlt.TabIndex = 3;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.textBox4.Location = new System.Drawing.Point(32, 418);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(209, 20);
-            this.textBox4.TabIndex = 4;
+            this.enterAlt.TextChanged += new System.EventHandler(this.enterAlt_TextChanged);
             // 
             // viewResultCessna172
             // 
@@ -85,7 +78,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.viewResultCessna172);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.enterAlt);
             this.Controls.Add(this.enterWind);
             this.Controls.Add(this.enterTemperature);
@@ -101,7 +93,6 @@
         private System.Windows.Forms.TextBox enterTemperature;
         private System.Windows.Forms.TextBox enterWind;
         private System.Windows.Forms.TextBox enterAlt;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button viewResultCessna172;
     }
 }

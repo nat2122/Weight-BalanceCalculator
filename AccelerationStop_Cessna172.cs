@@ -1,32 +1,58 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace W_B_Calculator
 {
-    public partial class AccelerationStop_Cessna172: Form
+    public partial class AccelerationStop_Cessna172 : Form
     {
+        private Cessna172Calulations cessna172Calulations;  // To hold the Cessna172Calulations data
+
+        // Constructor accepting Cessna172Calulations
+      
+    
+
         public AccelerationStop_Cessna172()
         {
             InitializeComponent();
-        }
-       public int GetTemperature()
-        {
-            int temp = Int32.Parse(enterTemperature.Text);
-           return temp;
-        }
-        public int GetAlt()
-        {
-            int alt = Int32.Parse(enterAlt.Text);
-            return alt;
+            cessna172Calulations = calculations;
         }
 
+        private int totalTemperature = 0; // Store user input
+        private void enterTemperature_TextChanged(object sender, EventArgs e)
+        {
+            if (!int.TryParse(enterTemperature.Text, out totalTemperature))
+            {
+                totalTemperature = 0; // Reset if invalid
+            }
+        }
+
+        public int GetTemperature()
+        {
+            return totalTemperature;
+        }
+
+        // Getting Altitude
+        private int totalAlt = 0; // Store user input   
+        private Cessna172 cessna172;
+        private Cessna172Calulations calculations;
+
+        private void enterAlt_TextChanged(object sender, EventArgs e)
+        {
+            if (!int.TryParse(enterAlt.Text, out totalAlt))
+            {
+                totalAlt = 0; // Reset if invalid
+            }
+        }
+
+        public int GetAlt()
+        {
+            return totalAlt;
+        }
+
+        // Method to display weight information from Cessna172Calulations
+       
+
+        // Button to view results
         private void viewResultCessna172_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -34,5 +60,7 @@ namespace W_B_Calculator
             accelerationStopResults_172.FormClosed += (s, args) => this.Close();
             accelerationStopResults_172.Show();
         }
+
+
     }
 }
